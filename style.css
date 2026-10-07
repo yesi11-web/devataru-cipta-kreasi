@@ -4602,3 +4602,31 @@ footer {
     }
 
 }
+
+@media (max-width: 600px) {
+
+    .misi-list {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .misi-list p {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        align-items: start;
+        font-size: 15px;
+        line-height: 1.75;
+        text-align: left;
+    }
+
+    .misi-list strong {
+        display: block;
+        width: auto;
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.75;
+        color: var(--gold);
+    }
+
+}
