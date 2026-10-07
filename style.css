@@ -2072,7 +2072,7 @@ footer {
 
         background-attachment:
 
-            scroll;
+            fixed;
 
     }
 
@@ -4228,7 +4228,7 @@ footer {
 
     body {
         background-attachment:
-            scroll;
+             fixed;
     }
 
 
